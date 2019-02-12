@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React-components", "React-components\React-components.csproj", "{B8F00F7F-3E34-42BB-9832-6364EDC61BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React-components", "React-components\React-components.csproj", "{D40C7B56-DF9E-4B8E-A69B-FF941FFCB8E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8F00F7F-3E34-42BB-9832-6364EDC61BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8F00F7F-3E34-42BB-9832-6364EDC61BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8F00F7F-3E34-42BB-9832-6364EDC61BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8F00F7F-3E34-42BB-9832-6364EDC61BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40C7B56-DF9E-4B8E-A69B-FF941FFCB8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40C7B56-DF9E-4B8E-A69B-FF941FFCB8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40C7B56-DF9E-4B8E-A69B-FF941FFCB8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40C7B56-DF9E-4B8E-A69B-FF941FFCB8E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6D6C90D7-7D67-4B8B-A479-713256826B07}
+		SolutionGuid = {F60FE4D9-2EAC-471D-AE7E-8815330872FD}
 	EndGlobalSection
 EndGlobal
