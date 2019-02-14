@@ -34,3 +34,6 @@ React plugin levels
 Run linter at cmd
   > npm run lint
   > npm run lint:watch  //run with a watch
+
+Run all -s silent mode
+ > npm start -s
