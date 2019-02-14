@@ -12,6 +12,7 @@ Step into the React magic and enjoy the ride!
 6. ES6 transpilation
  
 # Tech
+Backend:    ExpressJs
 JS:         React
 Routing:    React Router
 Redux
