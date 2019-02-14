@@ -23,3 +23,14 @@ Build/minification: Webpack
 
 Testing:            Mocha
 Linting:            ESlint
+
+
+ESlint: 
+React plugin levels    
+  1.  0-Off
+  2.  1-Warning
+  3.  2-Error
+
+Run linter at cmd
+  > npm run lint
+  > npm run lint:watch  //run with a watch
