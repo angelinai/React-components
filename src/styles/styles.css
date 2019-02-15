@@ -1,0 +1,9 @@
+#app {
+    font: 14px
+}
+a.active {
+    color: orange;
+}
+nav {
+    padding-top: 20px;
+}
