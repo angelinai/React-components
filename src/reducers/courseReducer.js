@@ -1,5 +1,4 @@
-import React from 'react';
-
+ 
 // Recucers >> slice up management on the single store in Redux
 export function createReducer(state = [], action) {
    switch(action.type) {
@@ -9,7 +8,7 @@ export function createReducer(state = [], action) {
 
             // correct: return brand new state as state is immutable
             return [...state, // new instance of state array
-                Object.assign({}, actions.course) // make deep copy of state
+                Object.assign({}, action.course) // make deep copy of state
             ];
         default:
             return state;

@@ -27,7 +27,7 @@ class CoursesPage extends React.Component {
     }
 
     onClickSave(event){
-       this.props.dispatch(courseActions.createCourse(this.state.course));
+       this.props.createCourse(this.state.course);
     }
 
     courseRow(course, index){
@@ -67,7 +67,10 @@ function mapStateToProps(state, ownProps){
         courses: state.courses // courses local alias of state.courses
     };
 }
- 
-//const connectStateAndProps = connect(mapStateToProps);
-//export default connectStateAndProps(CoursesPage);
-export default connect(mapStateToProps)(CoursesPage);
+function mapDispatchToProps(dispatch){
+    return{
+        createCourse: course => dispatch(courseActions.createCourse(course)) 
+    };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(CoursesPage);

@@ -2,7 +2,7 @@
   "name": "react-components",
   "version": "1.0.0",
   "description": " ",
-  "scripts":{
+  "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel open:src lint:watch test:watch",
     "open:src": "babel-node tools/srcServer.js",
