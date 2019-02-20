@@ -1,5 +1,7 @@
+import React from 'react';
+
 // Recucers >> slice up management on the single store in Redux
-export function createReucer(state = [], action) {
+export function createReducer(state = [], action) {
    switch(action.type) {
         case 'CREATE_COURSE':
             // wrong >> 
@@ -13,3 +15,5 @@ export function createReucer(state = [], action) {
             return state;
    }
 }
+
+export default createReducer;

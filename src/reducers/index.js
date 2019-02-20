@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import courses from './reducers';
+import courses from './courseReducer';
  
 /* 
  Root Reducer
@@ -8,7 +8,8 @@ import courses from './reducers';
              (access via) > this.statse.courses
 */
 const rootReducer = combineReducers ({
-    courses // 
-})
+   courses  
+});
 
-
+export default rootReducer;
+ 
